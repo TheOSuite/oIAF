@@ -1,14 +1,14 @@
 ---
 
-# eIAF: Easy Web Authentication Tester
+# oIAF: Easy Web Authentication Tester
 
-Welcome to **eIAF**! This is a simple tool with a graphical interface (GUI) that helps you test web application login forms for common security issues. Think of it as a helpful assistant for checking if a website's login is vulnerable to basic attacks like trying common passwords or figuring out valid usernames.
+Welcome to **oIAF**! This is a simple tool with a graphical interface (GUI) that helps you test web application login forms for common security issues. Think of it as a helpful assistant for checking if a website's login is vulnerable to basic attacks like trying common passwords or figuring out valid usernames.
 
 **Please Note:** This tool is designed for learning and testing on websites you **own or have explicit permission** to test. Using it on other websites without permission is illegal and unethical. Always be responsible!
 
-## What Can eIAF Do?
+## What Can oIAF Do?
 
-Here are the main things eIAF can help you check:
+Here are the main things oIAF can help you check:
 
 *   **Easy to Use:** It has a window you can click and type into, so you don't need to remember complicated commands.
 *   **Test Login Pages:** Point it at a website's login page.
@@ -25,7 +25,7 @@ Here are the main things eIAF can help you check:
 
 You need a few things on your computer before you can run eIAF:
 
-1.  **Python:** eIAF is written in Python. You need **Python version 3.6 or newer**. You can download it from [python.org](https://www.python.org/). Python usually comes with the parts needed for the GUI (Tkinter).
+1.  **Python:** oIAF is written in Python. You need **Python version 3.6 or newer**. You can download it from [python.org](https://www.python.org/). Python usually comes with the parts needed for the GUI (Tkinter).
 2.  **Extra Python Libraries:** You need two extra libraries: `requests` (to send web requests) and `beautifulsoup4` (to read website content).
 
     Open your computer's terminal or command prompt and type this command, then press Enter:
@@ -36,27 +36,27 @@ You need a few things on your computer before you can run eIAF:
 
     This will download and install the libraries.
 
-## How to Get eIAF
+## How to Get oIAF
 
-1.  You can get the script by visiting the GitHub repository: [https://www.github.com/fish-hue/eIAF.git](https://www.github.com/fish-hue/eIAF.git)
+1.  You can get the script by visiting the GitHub repository: [(https://github.com/TheOSuite/oIAF.git)]
 2.  Click the green "Code" button and choose "Download ZIP".
 3.  Extract the downloaded ZIP file to a folder on your computer.
-4.  Inside the folder, you'll find the script file named `eIAF.py`.
+4.  Inside the folder, you'll find the script file named `oIAF.py`.
 
-## How to Use eIAF
+## How to Use oIAF
 
 1.  Open your computer's terminal or command prompt.
-2.  Use the `cd` command to go to the folder where you saved `eIAF.py`. For example, if it's in your "Downloads" folder:
+2.  Use the `cd` command to go to the folder where you saved `oIAF.py`. For example, if it's in your "Downloads" folder:
     ```bash
     cd Downloads
     ```
 3.  Once you are in the correct folder, run the script:
     ```bash
-    python eIAF.py
+    python oIAF.py
     ```
 4.  A window titled "Auth Test Module" will pop up.
 
-### Inside the eIAF Window:
+### Inside the oIAF Window:
 
 *   **Target Login URL:** Type the web address of the login page you want to test (like `https://example.com/login`).
 *   **Username Field:** This needs the technical name of the box where you type the username on the website. You can usually find this by right-clicking the username box on the website, selecting "Inspect" or "Inspect Element", and looking for the `name="..."` part inside the `<input>` tag. It might be `username`, `user`, `login`, etc.
@@ -102,9 +102,5 @@ If you see `[!!!] Possible Account Lockout Detected...`, it means the tool think
 ## Remember: Be Responsible!
 
 This tool is powerful, but it's your responsibility to use it legally and ethically. Only test websites where you have permission.
-
-## Need Help?
-
-If you have questions or find bugs, you can visit the GitHub repository: [https://www.github.com/fish-hue/eIAF.git](https://www.github.com/fish-hue/eIAF.git) and open an "Issue".
 
 ---
