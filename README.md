@@ -2,6 +2,9 @@
 
 # oIAF: Easy Web Authentication Tester
 
+![GitHub License](https://img.shields.io/github/license/TheOSuite/oXSS)
+![Python Version](https://img.shields.io/badge/python-3.13-blue)
+
 Welcome to **oIAF**! This is a simple tool with a graphical interface (GUI) that helps you test web application login forms for common security issues. Think of it as a helpful assistant for checking if a website's login is vulnerable to basic attacks like trying common passwords or figuring out valid usernames.
 
 **Please Note:** This tool is designed for learning and testing on websites you **own or have explicit permission** to test. Using it on other websites without permission is illegal and unethical. Always be responsible!
